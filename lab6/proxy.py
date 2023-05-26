@@ -26,6 +26,7 @@ class Math(IMath):
         return x / y
 
 class Proxy(IMath):
+
     def __init__(self):
         self.math = Math()
 
